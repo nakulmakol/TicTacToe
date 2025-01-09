@@ -17,7 +17,8 @@ body{
     justify-content: center;
     align-items: center;
   }
-  .game {
+ .game {
+    margin-top: 10%;
     height: 60vmin;
     width: 60vmin;
     display: flex;
@@ -36,6 +37,9 @@ body{
     color: #b0413e;
     
   }
+.box:hover{
+    cursor:pointer;
+  }
   
   #reset-btn {
     padding: 1rem;
@@ -44,6 +48,7 @@ body{
     color: #fff;
     border-radius: 1rem;
     border: none;
+    margin-top:10%;
   }
 h1{
     color:#F37E7E;
